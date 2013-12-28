@@ -1,0 +1,29 @@
+{
+  "name": "git-gridfs-db",
+  "version": "0.0.0",
+  "description": "A js-git interface adapter that implements db using GridFS.",
+  "main": "gridfs-db.js",
+  "scripts": {
+     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "respository": {
+    "type": "git",
+    "url": "git@github.com:toyatech/git-gridfs-db.git"
+  },
+  "keywords": [
+    "js-git",
+    "gridfs",
+    "db",
+    "git"
+  ],
+  "author": "noisypebble <noisypebble@toyatech.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/toyatech/git-gridfs-db/issues"
+  },
+  "devDependencies": {
+    "git-node-platform": "~0.1.4",
+    "mongodb": "*",
+    "should": "~2.1.1"
+  }
+}
